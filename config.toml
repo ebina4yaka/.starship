@@ -9,7 +9,7 @@ disabled = true
 
 [git_branch]
 symbol = "🌱 "
-truncation_length = 6
+truncation_length = 12
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '

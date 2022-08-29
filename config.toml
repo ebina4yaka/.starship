@@ -29,6 +29,15 @@ deleted = "🗑"
 
 [hostname]
 ssh_only = false
-format = "on [$hostname](bold red) "
-disabled = true
+format = "@[$hostname](bold green) "
+
+[username]
+style_user = "yellow bold"
+style_root = "pink bold"
+format = "[$user]($style)"
+show_always = true
+
+[memory_usage]
+threshold = 0
+disabled = false
 

@@ -36,5 +36,5 @@ format = "[$user]($style)"
 
 [memory_usage]
 threshold = 0
-disabled = false
+disabled = true
 
